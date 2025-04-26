@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonstaticanalysis"
+version = "0.1.0"
+description = ""
+authors = ["Daniiar Mukash uulu <d_mukashuulu@wargaming.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["full"], version = "^0.115.12"}
+httpx = "^0.28.1"
+uvicorn = {extras = ["standard"], version = "^0.34.2"}
+pytest = "^8.3.5"
+pytest-asyncio = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
